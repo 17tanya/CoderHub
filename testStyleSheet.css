@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+a {
+    text-decoration: none;
+  }
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(0, 0, 38, 0.9);/*#000026;*/
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.giveLetterSpacing {
+    letter-spacing: 5px;
+    font-style: italic;
+}
+
+.coderhub {
+    height: 65px;
+    line-height: 65px;
+    color: #dbf3fa;/*#7ad7f0;#fc94af;*/
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Lucida Console';
+}
+
+.header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: #dbf3fa;/*#fc94af;*/
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    font-weight: bold;
+    font-family: 'Lucida Console'
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .top-wrapper {
+    padding: 90px 0 190px 0;
+    background-image: url(https://flow.org/assets/featurette-faster-56e57b5eb50445d2903590e1553797e4637fcc0aa779b09bc9c5c8a8c08a1645.gif);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    font-size: 20px;
+    margin-bottom: 3px;
+  }
+
+  .card-wrapper {
+    padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    /*border: 10px solid green;*/
+  }
+  
+  .heading {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /*border: 10px solid orangered;*/
+    /*height: 65px;
+    line-height: 65px;
+    width: 100%;
+    color: white;
+    background-color: #000026;*/
+  }
+  
+  .heading h2 {
+    /*font-weight: normal;
+    background-color: #000026;
+    color: #fc94af;*/
+    height: 65px;
+    line-height: 65px;
+    width: 100%;
+    color: white;
+    background-color: #000026;
+  }
+  
+  .card {
+    float: left;
+    width: 50%;
+    border: 1px solid #000026;
+    box-shadow: 5px 5px 2px grey;
+    background-color: #dbf3fa;
+    /*border: l0px solid orangered;*/
+  }
+
+  .card2 {
+    padding-left: 5px;
+    float: left;
+    width: 50%;
+    border: 1px solid #000026;
+    box-shadow: 5px 5px 2px grey;
+    background-color: #dbf3fa;
+    /*border: l0px solid orangered;*/
+  }
+  
+  .cardHeader {
+    width: 100%;
+    color: #000;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Lucida Console';
+  }
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 18px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+  }
+
+  .btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    border-right: 1px solid #000026;
+  }
+  
+  .btn:hover {
+    background-color: rgba(245, 252, 255, 0.5);
+  }
+  
+  .fab {
+    margin-right: 5px;
+  }
+
+  .cards {
+    /*border: 10px solid yellow;
+    background-color: #dbf3fa;*/
+  }
+
+  .btnText {
+    padding: 15px 40px;
+    background-color: #f5fcff;
+    cursor: pointer;
+    box-shadow: 0 5px #000026;;
+  }
+  
+  .btnText:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+  }
+
+  .clear {
+    clear: left;
+  }
+
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  footer h2 {
+    font-family: 'Lucida Console';
+  }
+  
+  footer {
+    background-color: #000026;
+    color: #dbf3fa;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
