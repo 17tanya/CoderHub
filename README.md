@@ -1,5 +1,5 @@
 # CoderHub
-This is a web page to help beginners learn to code by telling them about various resources.
+A webpage to help new coders learn programming by making them aware of various resources and opportunities.
 
 ![](ScreenShots/ss1.png)
 ![](ScreenShots/ss2.png)
